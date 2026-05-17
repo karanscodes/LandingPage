@@ -210,3 +210,15 @@ padding-bottom: 5px;
     width: 100px;
     height: 20px;
 }
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#footer-content {
+    color: white;
+    font-size: 15px;
+}
