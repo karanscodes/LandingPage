@@ -220,3 +220,10 @@ footer {
     color: white;
     font-size: 15px;
 }
+
+a:hover {
+    border: white 2px solid;
+    padding: 10px 0px;
+    color:#1F2937;
+    background-color: #F9FAF8;
+}
