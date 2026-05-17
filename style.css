@@ -46,6 +46,7 @@ a {
     display: flex;
     flex-direction: column;
 }
+
 #hero-heading {
     font-size: 48px;
     color: #F9FAF8;
@@ -61,14 +62,18 @@ a {
 }
 
 #one-container-right {
+    border: white solid 2px;
     border-radius: 5px;
     display: flex;
-    color: #E5E7EB;
     background-color: grey;
     justify-content: center;
     align-items: center;
     padding: 50px;
-    width: 50%;
+    width: 700px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2xDCh8OWNfRWYe5IdsjUw2g-A7OrZuMW7Dg&s);
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat;
 }
 
 button {
@@ -78,4 +83,44 @@ button {
     border-radius: 5px;
     border: 0px;
     width: 100px;
+}
+
+#two 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+#two-heading {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+#two-content {
+    display: flex;
+    justify-content: center;
+    padding: 0px 20px;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #E5E7EB;
+    border: #3882F6 solid 2px;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 0;
+    width: 50px;
+    height: 50px;
 }
