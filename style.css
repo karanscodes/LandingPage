@@ -71,8 +71,7 @@ a {
     border-radius: 5px;
     display: flex;
     background-color: grey;
-    padding: 50px;
-    width: 250px;
+    width: 550px;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2xDCh8OWNfRWYe5IdsjUw2g-A7OrZuMW7Dg&s);
     background-position: center;
     background-size: 120%;
@@ -90,7 +89,6 @@ a {
 }
 
 #sign-up-top {
-    display: f;
     align-self: center;
     height: 25px;
 }
