@@ -40,6 +40,7 @@ a {
     display: flex;
     padding: 100px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 #one-container-left {
@@ -48,6 +49,7 @@ a {
     padding: 0px 50px;
     justify-content: space-around;
     align-items: flex-start;
+    width: 50%;
 }
 
 #hero-heading {
@@ -69,10 +71,8 @@ a {
     border-radius: 5px;
     display: flex;
     background-color: grey;
-    justify-content: center;
-    align-items: center;
     padding: 50px;
-    width: 100%;
+    width: 250px;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2xDCh8OWNfRWYe5IdsjUw2g-A7OrZuMW7Dg&s);
     background-position: center;
     background-size: 120%;
@@ -80,7 +80,7 @@ a {
     aspect-ratio: 16/9;
 }
 
-button {
+#sign-up-top {
     background-color: #3882F6;
     color: white;
     padding: 5px 20px;
@@ -157,4 +157,56 @@ figcaption {
     align-self: flex-end;
     font-weight: 900;
     font-size: 24px;
+}
+
+#four{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+#blue-box
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 100px;
+    background-color: #3882F6;
+    width: 50%;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+#left-part {
+    display: flex;
+    flex-direction: column;
+}
+
+#bbheader {
+    color: white;
+font-size: 24px;
+margin: 0;
+font-weight: 700;
+padding-bottom: 5px;
+}
+
+#bbcontent {
+    margin: 0;
+    color: #F9FAF8;
+}
+
+#right-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sign-up-bottom {
+    font-size: large;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: black solid 2px;
+    width: 100px;
+    height: 20px;
 }
